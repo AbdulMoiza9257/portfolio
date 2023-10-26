@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   font-family: serif;
+}
+.header {
+    position: fixed;
+    top:0 ;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color:transparent;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.a1 a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+  text-decoration: none;
+  margin-left: 35px;
+  transition: .3s;
+}
+.a1 a:hover,
+.a2 a.a2 {
+   color: #00abf0;
+}
+
+.home  {
+    height: 100vh;
+    background: linear-gradient(-90deg, #40060B 65%,#fff 35% );
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 10%;
+    
+    
+   
+}
+.homeimage {
+   justify-content: space-between;
+   display:flex;
+   align-items: center;
+   border-radius: 50%;
+   height: 380px;
+   width: 400px;
+   background: #40060B;
+    border: 20px solid white;
+     outline: 35px solid #40060B;
+   }
+
+  .homeimage {
+          position: relative;
+          max-width: 380px;
+          bottom:22px ;
+          padding-bottom: 210px;
+                   
+         
+       
+}
+
+.homecontent {
+    max-width: 600px;
+    color: white;
+    text-align: right;
+   
+ }
+.homecontent h1 {
+    font-size: 50px;
+    line-height: 1.2;
+     
+}
+.homecontent h3 {
+    font-size: 40px;
+    color:transparent;
+    -webkit-text-stroke: .5px white;
+    background-image: linear-gradient(#00abf0, #00abf0);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -410px 0;
+    animation: animateText 6s linear infinite;
+}
+
+@keyframes animateText {
+   0%,95%,100% {
+      background-position: -410px 0;
+   }
+   65%,85% {
+      background-position: 0 0;
+   }
+}
+
+ .homecontent p {
+    font-size: 8px;
+    margin-top: 20px;
+    font-size: 9px;
+ }
+ .a3{
+    margin: 25px 0 40px;
+ }
+ .a3 a {
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    background:transparent;
+    border: 2px solid white; 
+    border-radius: 50%;
+    font-size:20px;
+    color: #00abf0;
+    text-decoration:none;
+    justify-content:center;
+    align-items:center;
+    margin-left:12px ;
+    transition: .5x;
+    
+
+ }
+ .a3 a:hover {
+    background: #00abf0;
+    color: #fff;
+    border-color: #00abf0;
+    box-shadow:0 0 10px #00abf0 ;
+ }
+ .btn {
+    padding: 12px 35px;
+    background: #00abf0;
+    border-radius: 40px;
+    font-size: 17px ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow:0 0 10px #00abf0 ;
+    transition: .5s; 
+ }
+
+ .btn {
+    box-shadow: none;
+   }
